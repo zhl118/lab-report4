@@ -6,6 +6,7 @@ In this week lab, we are doing some Command-Line Setup and faster than before
 
 *Step 4*
 
+*ssh-keygen* was 7 step before in my command history so i press `<up>``<up>``<up>``<up>``<up>``<up>``<up>``<Enter>`
 In our local terminal we can run *ssh-keygen* and keep entering <Enter>, then we can see an command completes and shows the “randomart image”. We need to check where our ssh key saved in which director and run *scp <path to your public SSH key> cs15lwi23__@ieng6.ucsd.edu:~/.ssh/authorized_keys* and type our password again.
   
 Next time when you login in to ieng6 account, you will found out we don't need password anymore!
@@ -36,6 +37,10 @@ I'm using *nano* command to editor the java file, and i find the error which is 
 *Step 8*
   
 After i fixed the java code, now we pass all the test case when we run Junit
+  
+*javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java* was 3 step before in my command history so i press `<up>` `<up>` `<up>` `<up>` `<Enter>`
+  
+*java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests* was 2 step before in my command history so i press `<up>` `<up>` `<up>` `<Enter>`
 
 ![image](lab4.7.png)
   
